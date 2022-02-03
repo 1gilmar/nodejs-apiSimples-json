@@ -1,0 +1,26 @@
+###
+GET http://localhost:3030/products
+
+###
+POST http://localhost:3030/products
+Content-Type: application/json
+
+{
+    "name": "nome3",
+    "price":  3
+}
+
+###
+GET http://localhost:3030/products/e3ae6e5c-fd76-4e37-a3c6-d50aae692799
+
+###
+PUT http://localhost:3030/products/e3ae6e5c-fd76-4e37-a3c6-d50aae692799
+Content-Type: application/json
+
+{
+    "name": "bbbbb",
+    "price":  3
+}
+
+###
+DELETE  http://localhost:3030/products/e3ae6e5c-fd76-4e37-a3c6-d50aae692799
